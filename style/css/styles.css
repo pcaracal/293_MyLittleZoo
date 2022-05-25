@@ -1,0 +1,40 @@
+body{
+    background-color: #252526;
+    color: white;
+}
+header{
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    margin-left: auto;
+    padding: 1em;
+}
+ul{
+    display: flex;
+}
+li{
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 0.5em;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+h1{
+    font-family: 'Karla', sans-serif;
+    font-size: 5em;
+}
+.maf{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
