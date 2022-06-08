@@ -27,3 +27,7 @@ h1{
 nav{
     margin-left: auto;
 }
+.text{
+    padding-left: 2em;
+    padding-right: 2em;
+}
