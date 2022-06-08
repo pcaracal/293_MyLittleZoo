@@ -14,7 +14,7 @@ header {
 footer {
     background-color: #1e1e1e;
     padding: 1em;
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 .container-fluid {
@@ -68,4 +68,21 @@ nav {
 
 .flopperer {
     padding: 5px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #3e3e3e;
 }
