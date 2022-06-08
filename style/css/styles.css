@@ -7,20 +7,6 @@ header{
     display: flex;
     align-items: center;
 }
-nav{
-    display: flex;
-    margin-left: auto;
-    padding: 1em;
-}
-ul{
-    display: flex;
-}
-li{
-    display: inline-flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-    padding: 0.5em;
-}
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
@@ -37,4 +23,7 @@ h1{
     display: flex;
     justify-content: space-around;
     flex-wrap:wrap;
+}
+nav{
+    margin-left: auto;
 }
