@@ -19,7 +19,7 @@ li{
     display: inline-flex;
     justify-content: space-evenly;
     flex-wrap: nowrap;
-    padding: 0.5em;
+    padding: 1em;
 }
 .container-fluid{
     padding-left: 0;
@@ -35,6 +35,6 @@ h1{
 }
 .images{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap:wrap;
 }
