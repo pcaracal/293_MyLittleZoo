@@ -31,3 +31,13 @@ nav{
     padding-left: 2em;
     padding-right: 2em;
 }
+.flopimage{
+    display:flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+.soggaimage{
+    display:flex;
+    flex-direction: column;
+    margin-left: auto;
+}
