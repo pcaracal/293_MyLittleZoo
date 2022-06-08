@@ -1,57 +1,71 @@
-body{
+body {
     width: 100%;
     overflow-x: hidden;
     background-color: #252526;
     color: white;
 }
-header{
+
+header {
     background-color: #1e1e1e;
     display: flex;
     align-items: center;
 }
-.container-fluid{
+
+footer {
+    background-color: #1e1e1e;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.container-fluid {
     padding-left: 0;
     padding-right: 0;
 }
-h1{
+
+h1 {
     font-family: 'Karla', sans-serif;
     font-size: 5em;
 }
-.maf{
+
+.maf {
     padding-left: 1em;
     padding-right: 1em;
 }
-nav{
+
+nav {
     margin-left: auto;
 }
-.text{
+
+.text {
     padding-left: 2em;
     padding-right: 2em;
 }
 
-.images{
+.images {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-.flopimage{
-    display:flex;
+
+.flopimage {
+    display: flex;
     flex-direction: column;
 }
-.soggaimage{
-    display:flex;
+
+.soggaimage {
+    display: flex;
     flex-direction: column;
     margin-left: auto;
 }
 
 .images .flopimage img,
-.images .soggaimage img{
+.images .soggaimage img {
     flex: 1 1 auto;
     object-fit: cover;
     width: 600px;
     min-height: 400px;
 }
 
-.flopperer{
+.flopperer {
     padding: 5px;
 }
