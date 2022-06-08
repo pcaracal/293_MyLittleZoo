@@ -1,4 +1,6 @@
 body{
+    width: 100%;
+    overflow-x: hidden;
     background-color: #252526;
     color: white;
 }
@@ -19,11 +21,6 @@ h1{
     padding-left: 1em;
     padding-right: 1em;
 }
-.images{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap:wrap;
-}
 nav{
     margin-left: auto;
 }
@@ -31,13 +28,30 @@ nav{
     padding-left: 2em;
     padding-right: 2em;
 }
+
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 .flopimage{
     display:flex;
     flex-direction: column;
-    margin-right: auto;
 }
 .soggaimage{
     display:flex;
     flex-direction: column;
     margin-left: auto;
+}
+
+.images .flopimage img,
+.images .soggaimage img{
+    flex: 1 1 auto;
+    object-fit: cover;
+    width: 600px;
+    min-height: 400px;
+}
+
+.flopperer{
+    padding: 5px;
 }
