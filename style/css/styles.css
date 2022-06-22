@@ -86,3 +86,7 @@ th {
 tr:nth-child(even) {
     background-color: #3e3e3e;
 }
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
